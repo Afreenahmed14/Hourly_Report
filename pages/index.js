@@ -3,7 +3,7 @@ import { supabase } from '../lib/supabase';
 
 const TEAM = [
   "Afreen Ahmed", "Vinay", "Sai Dhanush", "James J", "Spandana", "Tejaswini",
-  "Susmitha", "Veeksha", "Sneha", "Sachin", "Rahul", "Praveen", "Anjana", "Kamal"
+  "Susmitha", "Veeksha", "Sneha", "Sachin", "Rahul", "Praveen", "Anjana", "Kamal","Humsa","Akshata"
   // Add the rest of your 20 members here.
 ];
 const TL_NAME = "Afreen Ahmed";
