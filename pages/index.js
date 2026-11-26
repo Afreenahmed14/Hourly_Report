@@ -37,7 +37,7 @@ const TEAM = [
 ];
 
 const TL_NAME = "Afreen Ahmed";
-const TL_NAME = "Afreen Ahmed";
+// const TL_NAME = "Afreen Ahmed";
 
 function todayStr() {
   const d = new Date();
