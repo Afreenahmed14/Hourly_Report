@@ -1,12 +1,42 @@
 import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 
+// const TEAM = [
+//   "Afreen Ahmed", "Vinay", "Sai Dhanush", "James J", "Spandana", "Tejaswini",
+//   "Susmitha", "Veeksha", "Sneha", "Sachin", "Rahul", "Praveen", "Anjana", "Kamal","Hamsa","Akshata","Suraj","Rahul Rajput" ,
+//   "Nilesh" ,"Aswin","Vandaana","Kumar","Nawaz","Sourabh","S.Kumar".
+//   // Add the rest of your 20 members here.
+// ];
+
 const TEAM = [
-  "Afreen Ahmed", "Vinay", "Sai Dhanush", "James J", "Spandana", "Tejaswini",
-  "Susmitha", "Veeksha", "Sneha", "Sachin", "Rahul", "Praveen", "Anjana", "Kamal","Hamsa","Akshata","Suraj","Rahul Rajput" ,
-  "Nilesh" ,"Aswin","Vandaana","Kumar","Nawaz","Sourabh","S.Kumar".
-  // Add the rest of your 20 members here.
+  "Afreen Ahmed",
+  "Vinay",
+  "Sai Dhanush",
+  "James J",
+  "Spandana",
+  "Tejaswini",
+  "Susmitha",
+  "Veeksha",
+  "Sneha",
+  "Sachin",
+  "Rahul",
+  "Praveen",
+  "Anjana",
+  "Kamal",
+  "Hamsa",
+  "Akshata",
+  "Suraj",
+  "Rahul Rajput",
+  "Nilesh",
+  "Aswin",
+  "Vandaana",
+  "Kumar",
+  "Nawaz",
+  "Sourabh",
+  "S.Kumar"
 ];
+
+const TL_NAME = "Afreen Ahmed";
 const TL_NAME = "Afreen Ahmed";
 
 function todayStr() {
